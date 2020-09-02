@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PetShopApplication.Core.Entities\PetShopApplication.Core.Entities.csproj" />
+    <ProjectReference Include="..\PetShopApplication.Core\PetShopApplication.Core.csproj" />
+  </ItemGroup>
+
+</Project>
